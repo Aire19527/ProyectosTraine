@@ -1,4 +1,5 @@
-﻿using Ejercicios.Net.PromedioGrupos.Logica;
+﻿using Ejercicios.Net.AlzaDolar.Logica;
+using Ejercicios.Net.PromedioGrupos.Logica;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,8 +22,12 @@ namespace Ejercicios.Net
             //Edad();
             //NumeroMayor();
 
-            PromedioMain objPromedio = new PromedioMain();
-            objPromedio.Main();
+            //PromedioMain objPromedio = new PromedioMain();
+            //objPromedio.Main();
+
+
+            Alza objAlza = new Alza();
+            objAlza.CalcularAlza();
         }
 
 
