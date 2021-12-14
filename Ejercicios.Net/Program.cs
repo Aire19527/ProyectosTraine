@@ -1,4 +1,5 @@
 ﻿using Ejercicios.Net.AlzaDolar.Logica;
+using Ejercicios.Net.Barman.Logica;
 using Ejercicios.Net.PromedioGrupos.Logica;
 using System;
 using System.Collections.Generic;
@@ -26,8 +27,12 @@ namespace Ejercicios.Net
             //objPromedio.Main();
 
 
-            Alza objAlza = new Alza();
-            objAlza.CalcularAlza();
+            //Alza objAlza = new Alza();
+            //objAlza.CalcularAlza();
+
+            BarmanLogica objBarman = new BarmanLogica();
+            objBarman.CalcularPrecios();
+
         }
 
 
