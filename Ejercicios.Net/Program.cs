@@ -1,5 +1,7 @@
 ﻿using Ejercicios.Net.AlzaDolar.Logica;
 using Ejercicios.Net.Barman.Logica;
+using Ejercicios.Net.InformeGas.Logica;
+using Ejercicios.Net.MayorQue.Logica;
 using Ejercicios.Net.PromedioGrupos.Logica;
 using System;
 using System.Collections.Generic;
@@ -30,9 +32,15 @@ namespace Ejercicios.Net
             //Alza objAlza = new Alza();
             //objAlza.CalcularAlza();
 
-            BarmanLogica objBarman = new BarmanLogica();
-            objBarman.CalcularPrecios();
+            //BarmanLogica objBarman = new BarmanLogica();
+            //objBarman.CalcularPrecios();
 
+            //Informe objInforme=new  Informe();
+            //objInforme.PrepararData();
+
+
+            Mayor objMayor = new Mayor();
+            objMayor.MayorQue();
         }
 
 
